@@ -1,0 +1,50 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+ul.navbar {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    width: 10em;
+}
+
+@media all {
+    body {
+        color: white;
+        background-color: black;
+        font-family: Arial;
+    }
+    h1 {
+        font-family: Arial;
+    }
+    ul {
+        position: relative;
+        top: 1em;
+        left: 1em;
+        width: 10em;
+    }
+}
+
+@media print {
+    body {
+        color: black;
+        background-color: white;
+        font-family: Times New Roman;
+    }
+    h1 {
+        font-family: Times New Roman;
+    }
+    ul {
+        position: relative;
+        top: 1em;
+        left: 1em;
+        width: 10em;
+    }
+}
