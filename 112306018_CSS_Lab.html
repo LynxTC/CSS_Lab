@@ -1,59 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My first CSS stylesheet</title>
-    <link rel="stylesheet" type="text/css" href="112306018_CSS_Lab.css">
+<title>My first CSS stylesheet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="112306018_CSS_Lab.css">
 </head>
-<body color="white" background-color="black" font-family="Arial">
-    <h1 font-family="Arial">My first style page</h1>
-    <p>Paragraph 1</p>
-    <p>Paragraph 2</p>
-    <p>Paragraph 3</p>
-    <ul class="navbar" position="relative" top="1em" left="1em" width="10em">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-    </ul>
-    <style>
-        @media all {
-            body {
-                color: white;
-                background-color: black;
-                font-family: Arial;
-            }
-            h1 {
-                font-family: Arial;
-            }
-            ul {
-                position: relative;
-                top: 1em;
-                left: 1em;
-                width: 10em;
-            }
-        }
-        @media print {
-            body {
-                color: black;
-                background-color: white;
-                font-family: Times New Roman;
-            }
-            h1 {
-                font-family: Times New Roman;
-            }
-            ul {
-                position: relative;
-                top: 1em;
-                left: 1em;
-                width: 10em;
-            }
-        }
-    </style>
-    <select>
-        <option value="Option 1">Option 1</option>
-        <option value="Option 2">Option 2</option>
-        <option value="Option 3">Option 3</option>
-        <option value="Option 4">Option 4</option>
-    </select>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>My first style page</h1>
+  <p>Paragraph 1</p>
+  <p>Paragraph 2</p>
+  <p>Paragraph 3</p>
+</div>
+
+<!-- Navigation Bar -->
+<ul class="navbar">
+  <li><a href="#">Link</a></li>
+  <li><a href="#">Link</a></li>
+  <li><a href="#">Link</a></li>
+  <li class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+
 </body>
 </html>
